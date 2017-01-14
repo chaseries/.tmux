@@ -1,0 +1,7 @@
+split-window -d -t 0 -h
+split-window -d -t 1 -v
+split-window -d -t 1 -h
+split-window -d -t 2 -v
+
+send-keys -t 4 'htop' enter C-l
+send-keys -t 2 'cmatrix' enter C-l
