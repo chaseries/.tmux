@@ -50,7 +50,6 @@ Useful for running editor, compiler, REPL at once, for instance.
 
 >**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
 
-```
 Useful for running editor, compiler, REPL at once, for instance.
 
 >**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
