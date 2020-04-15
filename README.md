@@ -50,6 +50,11 @@ Useful for running editor, compiler, REPL at once, for instance.
 
 >**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
 
+```
+Useful for running editor, compiler, REPL at once, for instance.
+
+>**NB**: This command is tricky at first. You have to hold down `Control` through the entire sequence. Don't release it between hitting the prefix key `a` and the directional key(s). The amount the pane will resize will be small for a single resize command, but for convenience the entire command doesn't have to be repeated to continue resizing. Instead, quickly alternate between `a` and your directional key while holding down `Control`.   
+
 
 ### Basic TMUX usage
 
@@ -74,7 +79,7 @@ Closes the pane currently in focus.
 Alternatively, `Control-d`, the default EOF signal (can only be used if you're currently in the session you want to kill and there are no more panes left open).  
 Removes the target session's entire workspace.   
 
-###How2get
+### How2get
 
 1. `cd` into your home directory on your server (`cd` with no arguments is actually the shortcut for this, btw) and `git clone https://github.com/chaseries/.tmux`. 
 2. `cd` into the newly-minted `.tmux` directory and `./bootstrap.sh`; this just creates a symbolic link in your home directory to the config file in `.tmux`. 
